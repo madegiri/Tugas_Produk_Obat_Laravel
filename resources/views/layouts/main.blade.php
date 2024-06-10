@@ -33,7 +33,7 @@
               </li>
               @else   
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/login">LOGIN</a>
+                <a class="nav-link active" aria-current="page" href="/login">Login</a>
               </li>
               @endauth
             </ul>

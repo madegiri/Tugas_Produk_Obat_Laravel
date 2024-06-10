@@ -41,7 +41,6 @@
         </div>
     </nav>
     
-
     <div class="container mt-5">
         <div class="p-5 bg-white rounded shadow-sm">
             <h1>Profile</h1>
@@ -51,7 +50,8 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ppX0EiEwhmBrVJNzwC3b8P2P4oz3Cmnkni7WE9jQqq8O26f3VAgkQe/xa/DZmWX/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

@@ -3,6 +3,7 @@
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ProfileController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -18,3 +19,4 @@ Route::get('/Exports/ProductsExport', [ProductController::class, 'export'])->nam
 Route::get('/login', [LoginController::class, 'index']);
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
+Route::get('/profile', [ProfileController::class, 'show'])->name('profile')->middleware('auth');
